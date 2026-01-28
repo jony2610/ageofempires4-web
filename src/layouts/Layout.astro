@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Exercicio 87</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+
+	/* Reset CSS */
+
+	* {
+	  margin: 0;
+	  padding: 0;
+	  outline: 0;
+	  box-sizing: border-box;
+	}
+	
+	body {
+	 background:var(--color-background) ;
+	 color:var(--color-golden-light) ;
+	 -webkit-font-smoothing: antialiased;
+	}
+	
+	body, input, button {
+	 
+	 font-family:var(--font-primary) ;
+	}
+
+	html{
+		font-size: 16px;
+		scroll-behavior: smooth;
+	}
+	
+	button {
+	 cursor: pointer;
+	}
+
+	@font-face {
+		font-family: Miola;
+		src: url(/fonts/miola.oft);
+	}
+
+	@font-face {
+		font-family: Noto;
+		src: url(/fonts/NotoSans-VariableFont_wdth_wght.ttf);
+	}
+
+	:root{
+  --color-background: rgba(24, 28, 41, 1);
+  --color-blue-midnight: rgba(0, 29, 52, 1);
+  --color-dark: rgba(0, 0, 0, 1);
+  --color-golden-dark: rgba(171, 125, 42, 1);
+  --color-golden-light: rgba(255, 223, 145, 1);
+  --color-gradient-navbar: rgba(118, 124, 146, 0.398035386029412);
+  --color-light: rgba(255, 255, 255, 1);
+  --color-links: rgba(83, 219, 221, 1);
+  --color-text-details: rgba(199, 199, 199, 1);
+  --font-primary:Miola;
+  --font-secundary:Noto;
+	}
+
+
+	
+</style>
